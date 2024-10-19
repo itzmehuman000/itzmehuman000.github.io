@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Terminal Emulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="terminal-container">
+        <div class="ascii-art">
+            <pre>
+                ░░▀░░▀█▀░▀▀█░█▀▄▀█░█▀▀░█░░░░█░▒█░█▀▄▀█░█▀▀▄░█▀▀▄
+                ░░█▀░░█░░▄▀▒░█░▀░█░█▀▀░█▀▀█░█░▒█░█░▀░█░█▄▄█░█░▒█
+                ░▀▀▀░░▀░░▀▀▀░▀░░▒▀░▀▀▀░▀░░▀░░▀▀▀░▀░░▒▀░▀░░▀░▀░░▀
+               
+        </pre>
+        </div>
+
+        <div id="terminal-output" class="terminal-output">
+            <span class="terminal-title">============================================</span>
+            <span class="terminal-title"> WELCOME TO THE SATANIC WORLD😈</span>
+            <span class="terminal-title">============================================</span>
+
+            <span class="user-info">👤 User: <strong>guest</strong></span>
+
+            <span class="section-divider">======================</span>
+            <span class="section-title"> Social Media Links: </span>
+            <span class="section-divider">======================</span>
+            <span class="social-link">🔗 GitHub: <a href="https://github.com/itzmehuman000"
+                    target="_blank">itzmehuman000</a></span>
+            <!-- <span class="social-link">🐦 Twitter: <a href="https://twitter.com/yourusername"
+                    target="_blank">yourusername</a></span>
+            <span class="social-link">💼 LinkedIn: <a href="https://linkedin.com/in/yourusername"
+                    target="_blank">yourusername</a></span> -->
+            <span class="section-divider">======================</span>
+
+            <span class="command-info">💻 Type <span class="highlight">'help'</span> to see available commands.</span>
+            <span class="command-info">🚀 Let's hack the command line together!</span>
+            <span class="terminal-title">============================================</span>
+
+        </div>
+        <div class="input-container">
+            <!-- <span class="guest">guest@linux:~$</span> -->
+            <span id="prompt" class="guest">guest@itzmehuman:~$</span>
+            <input type="text" id="terminal-input" class="terminal-input" autofocus />
+
+        </div>
+    </div>
+
+    <!-- Load main.js as a module -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

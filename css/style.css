@@ -1,0 +1,145 @@
+body {
+    background: linear-gradient(to bottom, #ff5f6d, #ffc371);
+}
+
+/* Terminal styling to resemble Linux */
+.terminal-container {
+    /* background-color: #1e1e1e; */
+    background-color: black;
+
+    /* Dark grey/black background */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    height: 39rem;
+    /* Fixed height */
+    overflow-y: auto;
+    /* Enable scrolling */
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    /* Align children inline */
+    align-items: center;
+    /* Center align items vertically */
+}
+
+.terminal-input {
+    color: cyan;
+    background-color: transparent;
+    border: none;
+    width: calc(100% - 150px);
+    /* Adjust width to fit in line with the prompt */
+    outline: none;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    font-style: bold;
+    /* Keep the monospace font */
+    /* caret-color: green; */
+    /* Green caret like Linux */
+    margin-left: 5px;
+    /* Space between prompt and input */
+}
+
+.ascii-art {
+    color: #0b0;
+    /* background-color: #000; */
+}
+
+.terminal-output {
+    white-space: pre-wrap;
+    /* background-color: black; */
+
+    /* Preserve whitespace */
+}
+
+.guest {
+    color: lightgreen;
+    /* Linux terminal's green color for user input */
+    font-weight: bold;
+    margin-right: 5px;
+    /* Space between prompt and input */
+}
+
+.command-output {
+    color: white;
+    /* White for regular terminal text */
+}
+
+.error {
+    color: red;
+    /* Red for error messages */
+    font-weight: bold;
+}
+
+
+/* Terminal Title Style */
+.terminal-title {
+    color: #00ff00;
+    /* Bright green for terminal title */
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+/* User Info Style */
+.user-info {
+    color: #ffffff;
+    /* White for user info */
+    font-family: "Courier New", monospace;
+    margin: 10px 0;
+}
+
+/* Section Divider Style */
+.section-divider {
+    color: #555555;
+    /* Dark gray for dividers */
+    font-family: "Courier New", monospace;
+}
+
+/* Section Title Style */
+.section-title {
+    color: #00ffff;
+    /* Cyan for section titles */
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+/* Social Link Style */
+.social-link {
+    color: #ffcc00;
+    /* Yellow for social links */
+    font-family: "Courier New", monospace;
+    margin: 5px 0;
+}
+
+/* Command Info Style */
+.command-info {
+    color: #ffffff;
+    /* White for command info */
+    font-family: "Courier New", monospace;
+    margin: 10px 0;
+}
+
+a {
+    color: #ff00ff;
+    /* Magenta for links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.highlight {
+    color: #ff9500;
+}
+
+#prompt {
+    margin-right: 5px;
+    /* Space between prompt and input */
+}
